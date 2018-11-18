@@ -31,6 +31,7 @@ for D in no_lst:
         n3 = math.sqrt(n2)
         print ("value is:-",n3)
         rsltlst.append(str(round(n3)))
+
     else:
         continue
 
