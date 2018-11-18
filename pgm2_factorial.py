@@ -17,6 +17,7 @@ def cal_fact(num):
 
 
 
+
 while True:
     try:
         in_no = int(input("Please provide integer no for factorail:-\n"))
