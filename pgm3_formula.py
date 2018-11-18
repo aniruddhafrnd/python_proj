@@ -22,6 +22,7 @@ print(type(inplst))
 no_lst = inplst.split(",")
 #print(no_lst)
 
+
 for D in no_lst:
     if(D.isnumeric()):
         n1 = 2*(int(C)*int(D))
