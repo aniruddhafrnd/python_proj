@@ -27,3 +27,5 @@ df["new_status"].cat.set_categories(["won","pending","presented","declined"],inp
 #print(pd.pivot_table(df,index=["Manager","Rep"],values=["Price"],aggfunc=[np.sum]))
 
 print (pd.pivot_table(df,index=["Manager","Status"],columns=["Product"],values=["Quantity","Price"],aggfunc={"Quantity":len,"Price":np.sum},fill_value=0))
+
+
